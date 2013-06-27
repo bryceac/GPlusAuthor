@@ -36,7 +36,7 @@ the address while logged out looks like this:
 https://plus.google.com/101897488487670181092/posts
 </pre>
 
-This plugin uses the latter format and the textfield in the configuration wants what is between <strong>http://plus.google.com/</strong> and <strong>/posts</strong>, without either of the two included.
+This plugin uses the latter format and the textfield in the configuration wants what is between <strong>https://plus.google.com/</strong> and <strong>/posts</strong>, without either of the two included.
 
 ==Support==
 
