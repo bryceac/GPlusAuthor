@@ -15,10 +15,9 @@ This plugin allows users to link their Habari blog to G+, using a method describ
 <dt style="font-weight:bold">plugins</dt><dd>plugin directory</dd>
 </dl>
 </li>
-<li>
 <li>Activate plugin</li>
 <li>[[#Configure | Configure plugin]]</li>
-<ol>
+</ol>
 
 ==Configuration==
 
