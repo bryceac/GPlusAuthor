@@ -1,0 +1,55 @@
+'''Author:''' Bryce
+'''Version:''' 0.1
+
+==Description==
+
+This plugin allows users to link their Habari blog to G+, using a method described by Joost de Valk in an article on [http://yoast.com/push-rel-author-head/ Yoast].
+
+==Installation==
+<ol>
+<li>move directory or clone repo into
+<pre>BlogRoot/user/plugins/</pre>
+<dl>
+<dt style="font-weight:bold">BlogRoot</dt><dd>directory where Habari resides</dd>
+<dt style="font-weight:bold">user</dt><dd>user directory</dd>
+<dt style="font-weight:bold">plugins</dt><dd>plugin directory</dd>
+</dl>
+</li>
+<li>
+<li>Activate plugin</li>
+<li>[[#Configure | Configure plugin]]</li>
+<ol>
+
+==Configuration==
+
+This plugin requires initial configuration in order to work. Fortunately, there is only one thing to set, which is an id.
+
+To find this id, go to your Google+ profile, preferably while logged out, since the URL looks different, and copy the address from the address bar.
+
+the address while logged in looks like the following:
+<pre>
+https://plus.google.com/101897488487670181092/posts?partnerid=gplp0
+</pre>
+
+the address while logged out looks like this:
+<pre>
+https://plus.google.com/101897488487670181092/posts
+</pre>
+
+This plugin uses the latter format and the textfield in the configuration wants what is between <strong>http://plus.google.com/</strong> and <strong>/posts</strong>, without either of the two included.
+
+==Support==
+
+If you are encountering problems, feel free to let me know at the address below.
+
+'''E-mail:''' habari@brycecampbell.me
+
+Please make sure to include plugin name in subject field, so I know where to look.
+
+==License==
+
+This plugin is licensed under the [http://opensource.org/licenses/MIT MIT License].
+
+==Misc.==
+
+This plugin has been tested with Habari 0.9. It is not known if it works in earlier versions.
